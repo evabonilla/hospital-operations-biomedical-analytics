@@ -14,7 +14,7 @@ Diseño y desarrollo de una solución integral de Business Intelligence orientad
 - **Surgical vs Medical Mix:** Distribución equitativa de facturación entre procedimientos invasivos ($4.1M) y patología médica ($4.4M).
 
 ## Visualización del Dashboard
-![Dashboard Overview](dashboard_view.png)
+![Dashboard Overview](dashboard_view.PNG)
 
 ## Hallazgos Principales
 1. Los pacientes hospitalizados (IP) representan únicamente el 28% del volumen total pero absorben la totalidad del recurso cama con estancias medias de 4,19 días.
