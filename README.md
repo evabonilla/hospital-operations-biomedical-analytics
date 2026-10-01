@@ -8,11 +8,14 @@ Diseño y desarrollo de una solución integral de Business Intelligence orientad
 - **Business Intelligence:** Power BI Desktop (Limpieza ETL en Power Query, modelado analítico y medidas dinámicas en DAX).
 
 ## Indicadores Clave (KPIs) - Vista Inpatient (Hospitalizados - IP)
-- **Total Ingresos:** $8M correspondientes a pacientes hospitalizados (el núcleo de la facturación clínica).
-- **ALOS (Average Length of Stay):** 4,19 días de estancia media (frente a 1,28 días globales que diluyen los ambulatorios).
-- **% Altas Matutinas (< 12:00 PM):** ~24% de cumplimiento en planta de hospitalización.
-- **Surgical vs Medical Mix:** Fuerte concentración del gasto en intervenciones quirúrgicas y tratamientos médicos de alta complejidad.
+- **Total Ingresos:** $8M acumulados (concentran el 94% de la facturación del centro).
+- **ALOS (Average Length of Stay):** 4,19 días de estancia media (frente a 1,28 días globales al excluir ambulatorios).
+- **% Altas Matutinas (< 12:00 PM):** 43,3% de altas firmadas antes de mediodía en planta de hospitalización (frente al 24,2% del conjunto hospitalario).
+- **Surgical vs Medical Mix:** Distribución equitativa de ingresos entre intervenciones quirúrgicas y tratamientos médicos complejos.
 
+## Hallazgos Principales
+1. **Concentración del recurso cama:** Los pacientes hospitalizados (IP) generan el 94% del volumen de negocio ($8M) y requieren una estancia media de 4,19 días, constituyendo el recurso operativo crítico del hospital.
+2. **Eficiencia en rotación de camas:** El 43,3% de las altas de pacientes ingresados se gestionan antes de las 12:00 PM, cumpliendo el umbral óptimo habitual de gestión asistencial (>40%) para liberar camas destinadas a ingresos programados y cirugías de tarde
 ## Visualización del Dashboard
 ![Dashboard Overview](dashboard_view.PNG)
 
