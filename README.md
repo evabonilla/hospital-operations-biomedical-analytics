@@ -7,11 +7,11 @@ Diseño y desarrollo de una solución integral de Business Intelligence orientad
 - **Bases de Datos & SQL:** SQLite / DBeaver (Consultas de agregación, métricas condicionales con `CASE WHEN` y cálculo de ALOS).
 - **Business Intelligence:** Power BI Desktop (Limpieza ETL en Power Query, modelado analítico y medidas dinámicas en DAX).
 
-## Indicadores Clave (KPIs)
-- **Total Ingresos:** $8.5M acumulados a lo largo del ejercicio 2025.
-- **ALOS (Average Length of Stay):** Estancia media global de 1,28 días (4,19 días en pacientes hospitalizados - IP).
-- **% Altas Matutinas (< 12:00 PM):** 24,2% de cumplimiento, identificando cuellos de botella en la rotación de camas para admisiones de tarde.
-- **Surgical vs Medical Mix:** Distribución equitativa de facturación entre procedimientos invasivos ($4.1M) y patología médica ($4.4M).
+## Indicadores Clave (KPIs) - Vista Inpatient (Hospitalizados - IP)
+- **Total Ingresos:** $8M correspondientes a pacientes hospitalizados (el núcleo de la facturación clínica).
+- **ALOS (Average Length of Stay):** 4,19 días de estancia media (frente a 1,28 días globales que diluyen los ambulatorios).
+- **% Altas Matutinas (< 12:00 PM):** ~24% de cumplimiento en planta de hospitalización.
+- **Surgical vs Medical Mix:** Fuerte concentración del gasto en intervenciones quirúrgicas y tratamientos médicos de alta complejidad.
 
 ## Visualización del Dashboard
 ![Dashboard Overview](dashboard_view.PNG)
